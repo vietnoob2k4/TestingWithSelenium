@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+      </div>
+      <button type="button" id="loginButton" onclick="handleLogin()">Login</button>
+      <p id="errorMessage" class="error-message" style="display: none;"></p>
+    </form>
+  </div>
+
+  <script>
+    function handleLogin() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const errorMessage = document.getElementById('errorMessage');
+
+      // Ẩn thông báo lỗi trước khi kiểm tra
+      errorMessage.style.display = 'none';
+
+      if (!username || !password) {
+        errorMessage.textContent = "Vui lòng nhập tên người dùng và mật khẩu";
+        errorMessage.style.display = 'block';
+        return;
+      }
+
+      if (username === "admin" && password === "admin123") {
+        // Không hiển thị alert nữa
+        
+        errorMessage.style.display = 'none';
+      } else {
+        errorMessage.textContent = "Tên người dùng hoặc mật khẩu không đúng";
+        errorMessage.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>

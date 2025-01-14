@@ -20,7 +20,7 @@ public class LoginTest {
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\vietn\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("file:///C:/Users/vietn/Downloads/projects/Testing%20with%20Selenium/Untitled-1.html");
+        driver.get("file:///C:/Users/vietn/Downloads/projects/Testing%20with%20Selenium/TestingWithSelenium/Untitled-1.html");
 
     }
 

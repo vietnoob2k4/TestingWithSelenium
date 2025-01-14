@@ -62,27 +62,4 @@ Mục tiêu của báo cáo này là mô tả quy trình và kết quả thử n
 
 ## 7. Phân tích và đánh giá
 
-- Hệ thống hoạt động chính xác theo các kịch bản kiểm thử đã đề ra. Các thông báo lỗi được hiển thị đúng cách khi người dùng nhập sai thông tin hoặc để trống các trường.
-- Không có lỗi phát sinh trong quá trình kiểm thử. Hệ thống đảm bảo tính bảo mật và chính xác trong việc xử lý thông tin đăng nhập.
-
-## 8. Kết luận
-
-Các bài kiểm thử đăng nhập đã được thực hiện thành công và đạt được kết quả như mong đợi. Tất cả các trường hợp kiểm thử (đăng nhập thành công, đăng nhập không hợp lệ và để trống các trường) đều được xử lý đúng đắn. Do đó, tính năng đăng nhập của hệ thống đã sẵn sàng để triển khai trong môi trường sản xuất.
-
----
-
-## 9. Đề xuất cải tiến
-
-- Cần thêm kiểm thử cho các trường hợp khác, như đăng nhập với tài khoản bị khóa hoặc mật khẩu không hợp lệ trong cơ sở dữ liệu.
-- Thực hiện kiểm thử tự động trên nhiều trình duyệt khác nhau để đảm bảo tính tương thích.
-
-## 10. Phụ lục
-
-- **Mã nguồn kiểm thử**: Đã được đính kèm ở phần đầu báo cáo.
-- **Môi trường kiểm thử**: Selenium WebDriver, JUnit, trình duyệt Chrome, hệ điều hành Windows.
-
----
-
-**Ký tên**  
-Người kiểm thử: [Tên người kiểm thử]  
-Ngày: [Ngày kiểm thử]
+- Hệ thống hoạt động chính xác theo các kịch bản kiểm thử đã đề ra. Các thông báo lỗi được hiển thị đúng cách khi người dùng nhập sai thông tin hoặc để t2025

@@ -64,6 +64,6 @@ Mục tiêu của báo cáo này là mô tả quy trình và kết quả thử n
 
 - Hệ thống hoạt động chính xác theo các kịch bản kiểm thử đã đề ra. Các thông báo lỗi được hiển thị đúng cách khi người dùng nhập sai thông tin hoặc để t2025
 ## 8. Phân tích và đánh giá
-- **Chat chấm điểm: 9/10
-- **Link chat: https://chatgpt.com/c/67868e84-f96c-800d-90d1-0bd436167dfc
+- Chat chấm điểm: 9/10
+- Link chat: https://chatgpt.com/c/67868e84-f96c-800d-90d1-0bd436167dfc
 
